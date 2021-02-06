@@ -1,17 +1,71 @@
-Package: Little12
+Package: com.ryannair05.little12
+Name: Little12
 Version: 1.0.0
-Filename: ./debs/Little12.deb
-Size: 388776
-MD5sum: 38f7bf8155ee2c71cf9b79fc0224b895
-Description: iPhone 12 仿X手势
-Maintainer: Ryan Nair
+Section: Tweaks
+Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
-Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.cydia.love.little11
-Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.cydia.love.little11
-Architecture: iphoneos-arm
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
 Installed-Size: 1024
-Name: Little12仿X手势
 Author: Ryan Nair
-Section: 插件
+Maintainer: Ryan Nair
+Description: iPhone 12 gestures and more for iOS 14
+Filename： ./debs/com.ryannair05.little12_1.0.0_iphoneos-arm.deb
+Size: 386036
+MD5sum: fb6da83453bcf26f83a90e77f6c52a9d
 
+Package: com.ryannair05.little11
+Name: Little11
+Version: 1.5.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.poseidon, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Installed-Size: 912
+Author: Ryan Nair
+Maintainer: Ryan Nair
+Description: iPhone 11 gestures and more for iOS 13
+Filename： ./debs/com.ryannair05.little11_1.5.1_iphoneos-arm.deb
+Size: 340596
+MD5sum: c33ce9a1c9d7c0c986725012fe42042f
+
+Package: com.tigisoftware.filza
+Name: Filza File Manager
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Version: 3.8.1-22
+Installed-Size: 32112
+Filename: ./debs/com.tigisoftware.filza_3.8.1-22_iphoneos-arm.deb
+Size: 12944552
+MD5sum: 2a067be10c9304a80f5089f548cc19ea
+
+Author: saurik, Cannathea <csupport@cannathea.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Package: com.cannathea.afc2d-arm64
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Section: System
+Version: 1.1.1
+Architecture: iphoneos-arm
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: cannathea
+Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Installed-Size: 671
+Filename: ./debs/com.cannathea.afc2d-arm64_1.1.1_iphoneos-arm.deb
+Size: 19468
+MD5sum: 63342514d0bb6350d54a327150da1c32
