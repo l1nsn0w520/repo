@@ -130,3 +130,106 @@ Nativedepiction: https://github.com/SailyTeam/main/raw/master/Attachments/native
 Filename： ./debs/Saily-CI-1.0-2-160766.deb
 Size: 20471474
 MD5sum： 84c5e3e10e304dd38c6cbaaa1a55f6a8
+
+Package: com.coolbooter.coolbootercli
+Name: CoolBooter CLI
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, wget, firmware (>= 5.0)
+Version: 1.1-beta2-release
+Architecture: iphoneos-arm
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Author: CoolBooter <coolbooterios@gmail.com>
+Section: System
+Filename： ./debs/com.coolbooter.coolbootercli_1.1-beta2-release_iphoneos-arm.deb
+Size: 23627008
+MD5sum： 93f671a006d4f83ef76cde27b499d828
+
+Architecture: iphoneos-arm
+Name: CrackerXI+
+Package: cydia.com.ipc.crackerxi
+Depends: firmware (>= 11.0)
+Version: 1.1.16
+Size: 244 Kb
+Website: https://ipastore.me
+Maintainer: c0pyn1nja
+Description: Decrypts iOS Apps
+Section: Utilities
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+Filename： ./debs/cydia.com.ipc.crackerxi_1.1.16_iphoneos-arm.deb
+Size: 9960924
+MD5sum： 7363c9289b0041ba3bc8df156b751a9c
+
+Package: com.cokepokes.appstoreplusplus
+Name: AppStore++
+Version: 0.9.14-2
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-14.whatever
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Replaces:
+Priority: optional
+Architecture: iphoneos-arm
+Author: CokePokes
+dev:
+Homepage:
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Maintainer: CokePokes
+Filename： ./debs/com.cokepokes.appstoreplusplus_0.9.14-2_iphoneos-arm.deb
+Size: 1242344
+MD5sum： 487b03f3b13b62f95ac534489fe2dcb2
+
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.8.3
+Architecture: iphoneos-arm
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Filename： ./debs/com.exile90.icleanerpro_7.8.3_iphoneos-arm.deb
+Size: 6468796
+MD5sum： 066dd8cd88f869605942ab7f6019c56f
+
+Package: com.spark.snowboard
+Name: SnowBoard
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Snowboard theming engine
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Maintainer: Spark
+Author: Spark & Dennis D. Bednarz
+Section: Utilities
+Version: 1.4.2~Beta4
+Installed-Size: 4884
+Filename： ./debs/com.spark.snowboard_1.4.2~Beta4_iphoneos-arm.deb
+Size: 1544346
+MD5sum： 0ccc95da2f2e0accbbad83e80d67a9fd
+
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Package: net.angelxwind.appsyncunified
+Name: AppSync Unified
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Section: Tweaks
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Version: 84.0
+Installed-Size: 496
+Filename： ./debs/net.angelxwind.appsyncunified_84.0_iphoneos-arm.deb
+Size: 42058
+MD5sum： 979c1973c503b9eb4e9e1151d97c4421
+
+
