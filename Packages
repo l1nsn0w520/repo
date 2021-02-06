@@ -112,4 +112,21 @@ Filename： ./debs/cydia_1.1.34_iphoneos-arm.deb
 Size: 1260386
 MD5sum: dcdee98874bd04a97972749cae558a75
 
-
+Icon: https://github.com/SailyTeam/main/raw/master/Protein/Assets.xcassets/AppIcon.appiconset/icon-83.5%402x.png
+Package: wiki.qaq.Protein
+Homepage: https://github.com/SailyTeam/main/
+Version: 1.0-2-160766
+Name: Saily
+Author: Saily Team <master@233owo.com>
+Section: Applications
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools, apt
+Conflicts: com.lakr233.SailyTest, com.lakr233.jw.SailyPackageManager, com.lakr233.jw.SailyStartupDaemon
+Website: https://github.com/SailyTeam/main/
+Depiction: https://github.com/SailyTeam/main/blob/master/README.md
+Description: Modern. Fast. Beautiful.
+Maintainer: Saily Team <master@233owo.com>
+Architecture: iphoneos-arm
+Nativedepiction: https://github.com/SailyTeam/main/raw/master/Attachments/nativeDepiction.json
+Filename：
+Size: 20471474
+MD5sum： 84c5e3e10e304dd38c6cbaaa1a55f6a8
