@@ -1,0 +1,17 @@
+Package: Little12
+Version: 1.0.0
+Filename: ./debs/Little12.deb
+Size: 388776
+MD5sum: 38f7bf8155ee2c71cf9b79fc0224b895
+Description: iPhone 12 仿X手势
+Maintainer: Ryan Nair
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.cydia.love.little11
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.cydia.love.little11
+Architecture: iphoneos-arm
+Installed-Size: 1024
+Name: Little12仿X手势
+Author: Ryan Nair
+Section: 插件
+
