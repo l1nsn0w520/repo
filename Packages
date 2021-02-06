@@ -69,3 +69,47 @@ Installed-Size: 671
 Filename: ./debs/com.cannathea.afc2d-arm64_1.1.1_iphoneos-arm.deb
 Size: 19468
 MD5sum: 63342514d0bb6350d54a327150da1c32
+
+Package: org.coolstar.sileo
+Priority: required
+Section: 备用
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Architecture: iphoneos-arm
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)odysseyra1n的最新版sileo会闪退，可更新这个版本解决
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Tag: cydia::essential
+Version: 2.0.0b7-1
+Installed-Size: 12728
+Filename: ./debs/org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb
+Size: 3411310
+MD5sum: 569abb7fe4f1afc9f3014bede3c28a46
+
+Package: cydia
+Priority: required
+Section: 备用
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.1.34
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Provides: bigbossbetarepo, cydia-sources
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, cydia::essential, role::enduser
+Installed-Size: 6472
+Filename： ./debs/cydia_1.1.34_iphoneos-arm.deb
+Size: 1260386
+MD5sum: dcdee98874bd04a97972749cae558a75
+
+
